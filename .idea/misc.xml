@@ -3,12 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/background_error.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_background.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_button_delete.xml" value="0.34739583333333335" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_downslider_element.xml" value="0.34739583333333335" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_downslider_element2.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_edit_button.xml" value="0.34739583333333335" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_fragment_backgroud.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_item_2.xml" value="0.5" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_item_background.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_item_background_black.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_item_background_black2.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_item_background_on_error.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_item_background_on_success.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_item_transparent50.xml" value="0.3828125" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_red_button.xml" value="0.3828125" />
         <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/custom_search_area.xml" value="0.3828125" />
         <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/drawable/item_background.xml" value="0.3828125" />
-        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/activity_main.xml" value="0.3" />
-        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/activity_show_password.xml" value="0.36666666666666664" />
-        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/program_item.xml" value="0.25" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/account_info.xml" value="0.2598958333333333" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/activity_account_settings.xml" value="0.33" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/activity_add_new_record.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/activity_show_password.xml" value="0.22" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/fragment_user_cabinet.xml" value="0.30625" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/layout/program_item.xml" value="0.33" />
+        <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
         <entry key="..\:/Android-Projects/EthernetApp/app/src/main/res/xml/network_security_config.xml" value="0.2203125" />
       </map>
     </option>
@@ -18,5 +41,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.36666666666666664" />
+      </ProjectState>
+    </option>
   </component>
 </project>
