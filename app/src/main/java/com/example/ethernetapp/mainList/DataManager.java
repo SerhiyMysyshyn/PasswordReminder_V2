@@ -1,4 +1,5 @@
 package com.example.ethernetapp.mainList;
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,16 +13,32 @@ import com.example.ethernetapp.MainActivity;
 import com.example.ethernetapp.Program;
 import com.example.ethernetapp.R;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class DataManager extends RecyclerView.Adapter<DataManager.RecyclerViewHolder>{
+    public static List<Program> ProgramDataList;
+    public Context context;
+
+    public DataManager(List<Program> ProgramDataList, Context context) {
+        this.ProgramDataList = ProgramDataList;
+        this.context = context;
+    }
+
+    public void filterList(List<Program> filterllist) {
+        ProgramDataList = filterllist;
+        notifyDataSetChanged();
+    }
 
     public static class RecyclerViewHolder extends RecyclerView.ViewHolder {
         ImageView mImage;
-        TextView mName, mTime, mDate;
+        TextView mName, mId, mTime, mDate;
 
         RecyclerViewHolder(View itemView) {
             super(itemView);
             mImage = (ImageView) itemView.findViewById(R.id.item_img);
+            mId = (TextView) itemView.findViewById(R.id.item_id);
             mName = (TextView) itemView.findViewById(R.id.item_name);
             mTime = (TextView) itemView.findViewById(R.id.item_time);
             mDate = (TextView) itemView.findViewById(R.id.item_date);
@@ -37,17 +54,17 @@ public class DataManager extends RecyclerView.Adapter<DataManager.RecyclerViewHo
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerViewHolder holder, int position) {
-        // get the single element from the main array
-        final Program program = MainActivity.ProgramData[position];
-        // Set the values
-        holder.mImage.setBackgroundResource(Integer.parseInt(program.get(Program.Field.IMG)));
+        Program program = ProgramDataList.get(position);
+
+        holder.mImage.setBackgroundResource(setProgramImage.setImage(program.get(Program.Field.NAME)));
         holder.mName.setText(program.get(Program.Field.NAME));
+        holder.mId.setText(program.get(Program.Field.ID));
         holder.mTime.setText(program.get(Program.Field.TIME));
         holder.mDate.setText(program.get(Program.Field.DATE));
     }
 
     @Override
     public int getItemCount() {
-        return MainActivity.ProgramData.length;
+        return ProgramDataList.size();
     }
 }
